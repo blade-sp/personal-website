@@ -2,18 +2,18 @@ project:
   type: website
   output-dir: docs 
 
-site-url: "https://blade-sp.github.io/PersonalWebsite/"
+site-url: "https://blade-sp.github.io/personal-website/"
 
 website:
   title: "Riccardo Spada"
   navbar:
-    left:
+    right:
       - text: Home
         href: index.qmd
-      - text: CV
-        href: cv.qmd
       - text: Resources
         href: resources.qmd
+      - text: CV
+        href: cv.qmd
   page-footer:
     left: "© 2025 Riccardo Spada"
     right: "Made with [Quarto](https://quarto.org)"
@@ -25,6 +25,7 @@ website:
 format:
   html:
     theme: flatly   
-    css: styles.css  
-    # toc: true table of contents for each page 
-    # toc-depth: 2
+    css: styles.css
+    smooth-scroll: true
+    highlight-style: github
+    toc: true

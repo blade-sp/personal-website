@@ -1,50 +1,31 @@
 ---
-title: "Welcome"
+pagetitle: "Riccardo Spada - PhD Candidate"
 format: html
 ---
 
-::: {.grid}
-::: {.g-col-6}
-![](assets/ProfilePic.jpg){width="50%" fig-align="right"}
+::: {.hero-section}
+::: {.hero-text}
+# Riccardo Spada
+<div class="subtitle">PhD Candidate in Business Economics at Wageningen University</div>
+
+My research focuses on agricultural economics, finance, and risk management. I am passionate about building resilience in agri-food systems through data-driven policy analysis.
+
+<br>
+
+<a href="mailto:riccardo.spada@wur.nl" class="btn-primary">Contact Me</a>
+<a href="cv.qmd" class="btn-secondary">View CV</a>
 :::
 
-::: {.g-col-6}
-PhD candidate <br><br>
-Business Economics group <br><br>
-Wageningen University & Research <br><br>
-[riccardo.spada@wur.nl](mailto:riccardo.spada@wur.nl)
+::: {.profile-img-container}
+![](assets/ProfilePic.jpg)
 :::
 :::
 
-<!-- Social media links -->
+<br>
+<br>
+<hr>
+<br>
 
-## About Me
-
-<!-- Short biography -->
-
-I'm currently based in The Netherlands where I'm pursuing my PhD in Agricultural Economics with the [Business Economic](https://www.wur.nl/en/research-results/chair-groups/social-sciences/business-economics-group.htm) group at [Wageningen University & Research](https://www.wur.nl/en). 
- 
-------------------------------------------------------------------------
-
-## Research
-
-My research focuses on agricultural economics and finance, risk management in agriculture, agricultural policy, and resilience in agri-food systems.
-
-### Projects
-
-- [Contracts2.0](https://www.project-contracts20.eu/)
-- [AgEnRes](https://agenres.eu/)
-
-### Working Papers
-
--   *Behavioral Preferences and Price Risk Management: A Systematic Literature Review*
-
-#### Conference Presentations
-
--   AES 2025 -- "Behavioral Preferences and Price Risk Management: A Systematic Literature Review"
-
-------------------------------------------------------------------------
-
-
-
-
+<div class="text-center" style="color: #666;">
+[LinkedIn](https://www.linkedin.com/in/riccardo-spada) &nbsp;&bull;&nbsp; [GitHub](https://github.com/blade-sp) &nbsp;&bull;&nbsp; [Email](mailto:riccardo.spada@wur.nl)
+</div>

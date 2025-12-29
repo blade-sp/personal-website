@@ -3,62 +3,61 @@ title: "Curriculum Vitae"
 format: html
 ---
 
-You can download the pdf format of my cv [here](assets/cv.pdf).
-
-<div class="center">
-
-# Riccardo Spada
-
-[riccardo.spada@wur.nl](mailto:riccardo.spada@wur.nl) | [LinkedIn](https://www.linkedin.com/in/riccardo-spada) | [GitHub](https://github.com/blade-sp)
-
+<div style="margin-bottom: 2rem;">
+<a href="assets/cv.pdf" class="btn-primary" download>Download PDF Version</a>
 </div>
 
 ## Experience
 
-- **Policy Analyst (Intern)**, OECD   
-  Internship in the Agricultural and Resource Policy division at the Trade and Agriculture Directorate (TAD-ARP). <br>
-  *2023–2024*
+### Policy Analyst (Intern)
+**OECD - Trade and Agriculture Directorate (TAD-ARP)**  
+*2023–2024*
 
-- **Research Assistant**, Swedish University of Agricultural Sciences (SLU)   
-  Data cleaning for the EU-Horizon project “Contracts2.0”. <br>
-  *2022–2023*
+- Conducted research and analysis on agricultural policies.
+- Contributed to reports on resource sustainability and trade trade.
+
+### Research Assistant
+**Swedish University of Agricultural Sciences (SLU)**  
+*2022–2023*
+
+- Performed data cleaning and statistical analysis for the EU-Horizon project “Contracts2.0”.
+- Assisted in preparing datasets for economic modelling.
 
 ---
 
 ## Education
 
-- **PhD in Agricultural Economics**  
-  Wageningen University & Research, Netherlands  
-  *2024–Present*
+### PhD in Agricultural Economics
+**Wageningen University & Research, Netherlands**  
+*2024–Present*
 
-- **Agricultural, Food, and Environmental Policy Analysis (AFEPA) Double Degree Program**
-  *2021–2024*    
-  - *MSc in Business and Economics*, Swedish University of Agricultural Sciences (SLU), Sweden
-  - *MSc in Agricultural and Food Economics*, Catholic University of Sacred Heart, Italy
+### MSc in Business and Economics
+**Swedish University of Agricultural Sciences (SLU), Sweden**  
+*2021–2024*  
+*Part of AFEPA Double Degree Program*
 
+### MSc in Agricultural and Food Economics
+**Catholic University of Sacred Heart, Italy**  
+*2021–2024*  
+*Part of AFEPA Double Degree Program*
 
-- **BSc in Biotechnology**  
-  University of Verona, Italy  
-  *2017–2021*
+### BSc in Biotechnology
+**University of Verona, Italy**  
+*2017–2021*
 
 ---
 
 ## Certifications
 
-- **Google Data Analyst Professional Certificate**  
-  Coursera, Feb 2023
-
-- **IELTS English level C1**  
-  British Council, Oct 2021
+- **Google Data Analyst Professional Certificate** (Coursera, Feb 2023)
+- **IELTS English level C1** (British Council, Oct 2021)
 
 ---
 
 ## Skills
 
-- **Programming:** STATA, R, Python, SQL, LaTeX, Git
-- **Languages:** English (fluent), Italian (fluent), Spanish (basic), French (basic)
+**Programming & Tools**  
+STATA, R, Python, SQL, LaTeX, Git
 
----
-
-
-------------------------------------------------------------------------
+**Languages**  
+English (fluent), Italian (fluent), Spanish (basic), French (basic)

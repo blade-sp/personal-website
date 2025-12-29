@@ -1,303 +1,58 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "PhD candidate  Business Economics group  Wageningen University & Research  riccardo.spada@wur.nl"
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Welcome",
-    "section": "",
-    "text": "About me\nflatly"
-  },
-  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "How to write academic papers  The publication process"
+    "text": "An EU-Horizon project focusing on innovative contract solutions for sustainable agriculture. I worked on data processing and analysis to support policy recommendations.\nVisit Project →\n\n\n\n\n\nAnalyzing the resilience of the agricultural sector. My contribution involves evaluating economic indicators and modelling risk management strategies for European farmers.\nVisit Project →"
   },
   {
-    "objectID": "resources.html#blog",
-    "href": "resources.html#blog",
+    "objectID": "resources.html#research-projects",
+    "href": "resources.html#research-projects",
     "title": "Resources",
     "section": "",
-    "text": "Coming soon: posts on academic life, research updates, and personal finance tips."
+    "text": "An EU-Horizon project focusing on innovative contract solutions for sustainable agriculture. I worked on data processing and analysis to support policy recommendations.\nVisit Project →\n\n\n\n\n\nAnalyzing the resilience of the agricultural sector. My contribution involves evaluating economic indicators and modelling risk management strategies for European farmers.\nVisit Project →"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "You can download the pdf format of my cv here."
-  },
-  {
-    "objectID": "cv.html#cv",
-    "href": "cv.html#cv",
-    "title": "CV",
-    "section": "",
-    "text": "You can download my CV here."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Feel free to reach out via email, or connect with me on LinkedIn."
-  },
-  {
-    "objectID": "contact.html#contact",
-    "href": "contact.html#contact",
-    "title": "Contact",
-    "section": "",
-    "text": "Feel free to reach out via email, or connect with me on LinkedIn."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research focuses on agricultural economics and finance, risk management in agriculture, agricultural policy, and resilience in agri-food systems."
-  },
-  {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "Working Papers",
-    "text": "Working Papers\n\nBehavioral Preferences and Price Risk Management: A Systematic Literature Review\n\n\nConference Presentations\n\nAES 2025 – “Behavioral Preferences and Price Risk Management: A Systematic Literature Review”"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "About Me\nI’m currently pursuing my PhD in Agricultural Economics. My research focuses on risk management, behavioral economics, and resilience in agri-food systems. I’m also passionate about personal finance and financial decision-making."
-  },
-  {
-    "objectID": "write.html",
-    "href": "write.html",
-    "title": "How to Write an Academic Papers",
-    "section": "",
-    "text": "The material I present here is a collection of tips from supervisors, colleagues, online resources, and the extracts from the course Academic Publication and Presentation in the Social Sciences course organized by Wageningen School of Social Sciences (WASS). It is everything I would have wanted to know at the start of my PhD journey."
-  },
-  {
-    "objectID": "write.html#general-issues",
-    "href": "write.html#general-issues",
-    "title": "How to Write an Academic Papers",
-    "section": "1.1 General issues",
-    "text": "1.1 General issues\nLanguage - Obviously, write in English for a broader audience. In many cases, you can request to the journal the permission to publish in another language somewhere else.\nAuthorship - Try to publish a single author paper ASAP.\nEdited volumes and chapters - Often you receive an invitation. Very expensive, not a lot of viewership (ppl have to buy the entire book). You can first publish the same material. Often they take a long time to produce."
-  },
-  {
-    "objectID": "write.html#practical-tips",
-    "href": "write.html#practical-tips",
-    "title": "How to Write an Academic Papers",
-    "section": "1.2 Practical tips",
-    "text": "1.2 Practical tips\n\nStudy what interests you. You will not work hard enough, or smart enough, otherwise.\nTalk to people about research all of the time. Do not be shy or humble. Attend seminars and conferences.\nBe persistent and do not get discouraged. Expect and accept rejection.\nPerfection is a standard that can never be achieved.\nThe research process is non-linear. Be prepared to go back to earlier stages of the research process and refine your questions, approach, etc.\n\nPractical Tips for Writing and Publishing Applied Economics Papers - Timothy Beatty & Jay P. Shimshack\nResearch ≠ Analysis. Research is telling a “story” – to other scholars, policymakers, students, etc. Analysis is an important, but small part, of research. Most young researchers forget this last point."
-  },
-  {
-    "objectID": "write.html#title",
-    "href": "write.html#title",
-    "title": "How to Write an Academic Papers",
-    "section": "2.1 Title",
-    "text": "2.1 Title"
-  },
-  {
-    "objectID": "write.html#abstract",
-    "href": "write.html#abstract",
-    "title": "How to Write an Academic Papers",
-    "section": "2.2 Abstract",
-    "text": "2.2 Abstract"
-  },
-  {
-    "objectID": "write.html#keywords",
-    "href": "write.html#keywords",
-    "title": "How to Write an Academic Papers",
-    "section": "2.3 Keywords",
-    "text": "2.3 Keywords\nThey are needed to improve visibility of your research. Try not to repeat title words."
-  },
-  {
-    "objectID": "write.html#jel-codes",
-    "href": "write.html#jel-codes",
-    "title": "How to Write an Academic Papers",
-    "section": "2.4 JEL codes",
-    "text": "2.4 JEL codes\nThe JEL classification system was developed for use in the Journal of Economic Literature (JEL), and is a standard method of classifying scholarly literature in the field of economics.\nJEL Classification System"
-  },
-  {
-    "objectID": "write.html#good-research-questions",
-    "href": "write.html#good-research-questions",
-    "title": "How to Write an Academic Papers",
-    "section": "3.1 Good research questions",
-    "text": "3.1 Good research questions\nWhat makes a good research question? - The question is important if X changes: Many people are worse off or better off. Important subpopulations are far better off or far worse off. - The question is controversial or puzzling. Test of an important theoretical prediction. - The subject is very common or involves large outlays of social resources.\nA good question will often complete the following statements: “I wonder if ….” ; “It is interesting that …”. If you can’t convince yourself that your research question falls into one of these categories, you may need a new question."
-  },
-  {
-    "objectID": "write.html#research-gaps",
-    "href": "write.html#research-gaps",
-    "title": "How to Write an Academic Papers",
-    "section": "3.2 Research gaps",
-    "text": "3.2 Research gaps\nDon’t stress the “gap” but instead frame what you are doing in terms of “contribution”, “new perspective”, or generally add to the literature. Otherwise it can be attacked."
-  },
-  {
-    "objectID": "write.html#what-to-put-here",
-    "href": "write.html#what-to-put-here",
-    "title": "How to Write an Academic Papers",
-    "section": "4.1 What to put here?",
-    "text": "4.1 What to put here?\n\nTheoretical Framework\nEmpirical Framework\nData and Descriptive Statistics\nResults and Discussion\n\n\n4.1.1 Tips:\n\nNo separate “literature review” section. Your literature review should be a one-paragraph affair in your introduction explaining how your work relates to the closest five to seven studies on the topic.\nYou might want to have a section titled “Background” between the introduction and the theoretical framework. This is especially so when you study a legislative change, a new policy whose details are important or, in an IO paper, the features of the market you are studying. This can either be a substitute for or a complement to the theoretical framework.\nYou might not need a theoretical framework. Some questions are old and the theory behind them is well documented and does not need to be restated.\nThe order between the “Empirical Framework” and “Data and Descriptive Statistics” sections can sometimes be switched. Go with what is logical here.\nLimitations should be emphasized. This is especially true if your work has any policy relevance; you don’t want anyone to interpret your results in ways they should not be interpreted."
-  },
-  {
-    "objectID": "write.html#visualizations",
-    "href": "write.html#visualizations",
-    "title": "How to Write an Academic Papers",
-    "section": "4.2 Visualizations",
-    "text": "4.2 Visualizations\nEvery part of your paper should quickly support the story. Read Schwabish, 2014\nA good picture can be worth much more than a thousand words\nData visualization principles: - show the data to tell the economic story - Use simple and consistent design elements - Avoid clutter and unnecessary complexity (focus on key points, the story) - Integrate text with graphs to transfer information quickly Best practices: - Using clear and concise labels - Avoiding 3D effects and unnecessary animation - Providing context and scale information - Using interactive visualizations when appropriate"
-  },
-  {
-    "objectID": "write.html#find-the-right-journal",
-    "href": "write.html#find-the-right-journal",
-    "title": "How to write academic papers",
-    "section": "Find the right journal",
-    "text": "Find the right journal\nDecide which journals are a good fit for your research and laid down a list of target journals. Send the paper ~one tier above where you think it belongs. If you have no idea, look at your reference and target the highest cited journal. A lot of journal like this to boost their impact factor.\nFor agricultural econmics see these sources: * A synthesis of journal rankings in Agricultural Economics and Environmental & Resource Economics - Bartosz Bartkowski, Nils Droste, Robert Finger * Journal Ranking in Agricultural Economics & Policy – Robert Finger * Performance indicators for agricultural economic journals - Robert Finger, Nils Droste, Bartosz Bartkowski and Frederic Ang"
-  },
-  {
-    "objectID": "write.html#review-and-acceptance",
-    "href": "write.html#review-and-acceptance",
-    "title": "How to write academic papers",
-    "section": "Review and acceptance",
-    "text": "Review and acceptance\n\nAn editor will look at the paper and decide whether to send it out for review or “desk reject.” Editors do NOT read the entire paper carefully on submission, and most only carefully read the abstract and/or introduction. Editors are asking: Is this research interesting, novel, and important? Is this research likely of interest to readers of this journal? Does the paper appear competently communicated and competently executed? What you can do is to use the cover letter to explain why your paper is a good fit for that journal, by citing previous papers in that journal.\nDesk reject decisions typically take between 1 day and 1 month. Do not bother arguing with desk rejections. Some perspective: Desk rejects are not bad outcomes….Be reflective, but not obsessive, after desk rejections.\nThe paper is under review. Wait! 2-5 months is now typical. You will eventually receive 1-4 referee reports (2-3 is most common) and a decision letter from the editor. The editor will most often be rejecting your paper. Almost all good journals have acceptance rates well below 10% (of a highly selected sample at the good journals). If you are lucky (and good), you will be invited to submit a revised manuscript addressing the editor and referee comments. The editor can accept, conditionally accept subject to minor changes, offer another ‘revise and resubmit,’ or reject after that. The whole process takes 0.5 years to several years at good journals. Over 1 year is the norm, not accounting for rejections.\nA biggest reason for rejection is a minimal or unclear contribution (originality [gaps] and importance [why is the gap important]). Why is this question important? Why is your analysis new? Empirical contribution and Conceptual contribution (i.e. what you learn from data vs what other people in the field learn from your analysis). Usually is policy contribution but keep in mind that the readers are not policy-makers (use blogs/policy briefs for them). Another big reason for rejection is poor writing. Poorly written papers confuse the reviewer and obscure contributions. You must get the abstract and intro ‘right.’ Other common reasons for rejection include: Poor fit for the journal. Conclusions that do not follow from the analysis. Uncited references. Too many themes."
-  },
-  {
-    "objectID": "publication_process.html",
-    "href": "publication_process.html",
-    "title": "The publication process at economics field journal",
-    "section": "",
-    "text": "Generally, two criteria: target audience/contribution you want to make, and journal impact factor. \nDecide which journals are a good fit for your research and laid down a list of target journals. Send the paper ~one tier above where you think it belongs. If you have no idea, look at your reference list and target the highest cited journal (a lot of journal like this to boost their impact factor). \nFor agricultural economics see these sources: * A synthesis of journal rankings in Agricultural Economics and Environmental & Resource Economics - Bartosz Bartkowski, Nils Droste, Robert Finger * Journal Ranking in Agricultural Economics & Policy – Robert Finger * Performance indicators for agricultural economic journals - Robert Finger, Nils Droste, Bartosz Bartkowski and Frederic Ang"
-  },
-  {
-    "objectID": "publication_process.html#find-the-right-journal",
-    "href": "publication_process.html#find-the-right-journal",
-    "title": "The publication process at economics field journal",
-    "section": "",
-    "text": "Generally, two criteria: target audience/contribution you want to make, and journal impact factor. \nDecide which journals are a good fit for your research and laid down a list of target journals. Send the paper ~one tier above where you think it belongs. If you have no idea, look at your reference list and target the highest cited journal (a lot of journal like this to boost their impact factor). \nFor agricultural economics see these sources: * A synthesis of journal rankings in Agricultural Economics and Environmental & Resource Economics - Bartosz Bartkowski, Nils Droste, Robert Finger * Journal Ranking in Agricultural Economics & Policy – Robert Finger * Performance indicators for agricultural economic journals - Robert Finger, Nils Droste, Bartosz Bartkowski and Frederic Ang"
-  },
-  {
-    "objectID": "publication_process.html#review-and-acceptance",
-    "href": "publication_process.html#review-and-acceptance",
-    "title": "The publication process at economics field journal",
-    "section": "2 Review and acceptance",
-    "text": "2 Review and acceptance\n\nThe journal editor will look at the paper and decide whether to send it out for review or “desk reject”. Editors are asking: Is this research interesting, novel, and important? Is this research likely of interest to readers of this journal? Does the paper appear competently communicated and competently executed? What you can do is to use the cover letter to explain why your paper is a good fit for that journal, by citing previous papers in that journal.\nDesk reject decisions typically take between 1 day and 1 month. Do not bother arguing with desk rejections. Some perspective: Desk rejects are not bad outcomes….Be reflective, but not obsessive, after desk rejections.\nIf not desk rejected, the paper is under review. Wait! 2-5 months is now typical. You will eventually receive 1-4 referee reports (2-3 is most common) and a decision letter from the editor. The editor will most often be rejecting your paper. Almost all good journals have acceptance rates well below 10% (of a highly selected sample at the good journals). If you are lucky (and good), you will be invited to submit a revised manuscript addressing the editor and referee comments. The editor can accept, conditionally accept subject to minor changes, offer another ‘revise and resubmit,’ or reject after that. The whole process takes 0.5 years to several years at good journals. Over 1 year is the norm, not accounting for rejections.\nA biggest reason for rejection is a minimal or unclear contribution (originality [gaps] and importance [why is the gap important]). Why is this question important? Why is your analysis new? Empirical contribution and Conceptual contribution (i.e. what you learn from data vs what other people in the field learn from your analysis). Usually is policy contribution but keep in mind that the readers are not policy-makers (use blogs/policy briefs for them). Another big reason for rejection is poor writing. Poorly written papers confuse the reviewer and obscure contributions. You must get the abstract and intro ‘right.’ Other common reasons for rejection include: Poor fit for the journal. Conclusions that do not follow from the analysis. Uncited references. Too many themes."
-  },
-  {
-    "objectID": "publication_process.html#selected-references-and-readings",
-    "href": "publication_process.html#selected-references-and-readings",
-    "title": "The publication process at economics field journal",
-    "section": "3 Selected references and readings",
-    "text": "3 Selected references and readings\nComing soon…"
-  },
-  {
-    "objectID": "research.html#teaching",
-    "href": "research.html#teaching",
-    "title": "Research",
-    "section": "Teaching",
-    "text": "Teaching\n\nTeaching assistant - R Practical in Analytics for Business Economics"
-  },
-  {
-    "objectID": "research.html#projects",
-    "href": "research.html#projects",
-    "title": "Research",
-    "section": "Projects",
-    "text": "Projects\n\nContracts2.0\nAgEnRes"
-  },
-  {
-    "objectID": "resources.html#writing",
-    "href": "resources.html#writing",
-    "title": "Resources",
-    "section": "",
-    "text": "How to write academic papers  The publication process"
-  },
-  {
-    "objectID": "resources.html#analysis",
-    "href": "resources.html#analysis",
-    "title": "Resources",
-    "section": "Analysis",
-    "text": "Analysis"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Welcome",
-    "section": "About Me",
-    "text": "About Me\n\nI’m currently based in The Netherlands where I’m pursuing my PhD in Agricultural Economics with the Business Economic group at Wageningen University & Research."
+    "text": "Download PDF Version"
   },
   {
     "objectID": "cv.html#experience",
     "href": "cv.html#experience",
     "title": "Curriculum Vitae",
     "section": "Experience",
-    "text": "Experience\n\nPolicy Analyst (Intern), OECD\nInternship in the Agricultural and Resource Policy division at the Trade and Agriculture Directorate (TAD-ARP).  2023–2024\nResearch Assistant, Swedish University of Agricultural Sciences (SLU)\nData cleaning for the EU-Horizon project “Contracts2.0”.  2022–2023"
+    "text": "Experience\n\nPolicy Analyst (Intern)\nOECD - Trade and Agriculture Directorate (TAD-ARP)\n2023–2024\n\nConducted research and analysis on agricultural policies.\nContributed to reports on resource sustainability and trade trade.\n\n\n\nResearch Assistant\nSwedish University of Agricultural Sciences (SLU)\n2022–2023\n\nPerformed data cleaning and statistical analysis for the EU-Horizon project “Contracts2.0”.\nAssisted in preparing datasets for economic modelling."
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n\nPhD in Agricultural Economics\nWageningen University & Research, Netherlands\n2024–Present\nAgricultural, Food, and Environmental Policy Analysis (AFEPA) Double Degree Program 2021–2024\n\nMSc in Business and Economics, Swedish University of Agricultural Sciences (SLU), Sweden\nMSc in Agricultural and Food Economics, Catholic University of Sacred Heart, Italy\n\nBSc in Biotechnology\nUniversity of Verona, Italy\n2017–2021"
+    "text": "Education\n\nPhD in Agricultural Economics\nWageningen University & Research, Netherlands\n2024–Present\n\n\nMSc in Business and Economics\nSwedish University of Agricultural Sciences (SLU), Sweden\n2021–2024\nPart of AFEPA Double Degree Program\n\n\nMSc in Agricultural and Food Economics\nCatholic University of Sacred Heart, Italy\n2021–2024\nPart of AFEPA Double Degree Program\n\n\nBSc in Biotechnology\nUniversity of Verona, Italy\n2017–2021"
   },
   {
     "objectID": "cv.html#certifications",
     "href": "cv.html#certifications",
     "title": "Curriculum Vitae",
     "section": "Certifications",
-    "text": "Certifications\n\nGoogle Data Analyst Professional Certificate\nCoursera, Feb 2023\nIELTS English level C1\nBritish Council, Oct 2021"
+    "text": "Certifications\n\nGoogle Data Analyst Professional Certificate (Coursera, Feb 2023)\nIELTS English level C1 (British Council, Oct 2021)"
   },
   {
     "objectID": "cv.html#skills",
     "href": "cv.html#skills",
     "title": "Curriculum Vitae",
     "section": "Skills",
-    "text": "Skills\n\nProgramming: STATA, R, Python, SQL, LaTeX, Git\nLanguages: English (fluent), Italian (fluent), Spanish (basic), French (basic)"
+    "text": "Skills\nProgramming & Tools\nSTATA, R, Python, SQL, LaTeX, Git\nLanguages\nEnglish (fluent), Italian (fluent), Spanish (basic), French (basic)"
   },
   {
-    "objectID": "cv.html#riccardo.spadawur.nl-linkedin-github",
-    "href": "cv.html#riccardo.spadawur.nl-linkedin-github",
-    "title": "Curriculum Vitae",
-    "section": "riccardo.spada@wur.nl | LinkedIn | GitHub",
-    "text": "riccardo.spada@wur.nl | LinkedIn | GitHub"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Welcome",
-    "section": "Research",
-    "text": "Research\nMy research focuses on agricultural economics and finance, risk management in agriculture, agricultural policy, and resilience in agri-food systems.\n\nProjects\n\nContracts2.0\nAgEnRes\n\n\n\nWorking Papers\n\nBehavioral Preferences and Price Risk Management: A Systematic Literature Review\n\n\nConference Presentations\n\nAES 2025 – “Behavioral Preferences and Price Risk Management: A Systematic Literature Review”"
-  },
-  {
-    "objectID": "resources.html#notes",
-    "href": "resources.html#notes",
-    "title": "Resources",
-    "section": "Notes",
-    "text": "Notes\nDecision-making under ambiguity"
-  },
-  {
-    "objectID": "ambiguity.html",
-    "href": "ambiguity.html",
-    "title": "Decision making under ambiguity",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Riccardo Spada",
     "section": "",
-    "text": "Ellsberg (1961) proposed a thought experiment that showed how people often prefer known risks over unknown risks, even when the expected outcomes are the same. This contradicts the predictions of standard expected utility theory.\nThe Ellsberg Paradox compare 2 events: a risky event is known to occur with probability one half (known odds), whereas no information is given about the other, ambiguous, event (unknown odds). People prefer a bet on the risky event to a bet on the ambiguous event.\nAccording to Knight (1921), risks refer to situations where the probability distribution of the random variable is known, while uncertainties refer to situations where the probability distribution is not known or cannot be objectively determined. A further distinction can be made between uncertainty and ambiguity. Under uncertainty, decision makers are able to form a well-defined (subjective) probability distribution, while under ambiguity they do not (Harrison, 2011).\nUnlike risk, where probabilities of different outcomes can be estimated from historical data, ambiguity arises when the probability distribution of outcomes is unknown (i.e. they are not available or decision-makers doesn’t know them). People typically show ambiguity aversion, preferring known probabilities over unknown ones, even if the outcomes are mathematically equivalent.\nIn this context decision models under ambiguity might be a better fit to explain farmers behaviour as they account for ambiguity aversion. Several models under ambiguity have been proposed, and are broadly divided into those that use second-order probabilities and those that do not (see also Ilut & Schneider (2022) for a review of applications of ambiguity models in macroeconomics and finance)."
-  },
-  {
-    "objectID": "ambiguity.html#subjective-expected-utility",
-    "href": "ambiguity.html#subjective-expected-utility",
-    "title": "Decision making under ambiguity",
-    "section": "1 Subjective Expected Utility",
-    "text": "1 Subjective Expected Utility\nLet’s use as a starting point Subjective Expected Utility (SEU) theory (Savage, 1954). Here the decision-maker attach subjective probabilities to the various possible events. He/She thus maximize Expected Utility with respect to a single subjective belief (probability distribution). Given \\(n\\) possible events, the preference functional is given by: \\[\nSEU = \\sum^n_{i=1} p_i u_i\n\\] where \\(p_i\\) is the subjective probability that even \\(E_i\\) occurs, so that \\(p_i = Prob(E_i)\\) for all \\(i\\), and \\(p_1 + p_2 + ... + p_n = 1\\).\nSEU does not capture ambiguity because the decision-maker behaves as if they know the probabilities of all uncertain events, even if they’re “subjectively assigned”."
-  },
-  {
-    "objectID": "ambiguity.html#multiple-priors-models",
-    "href": "ambiguity.html#multiple-priors-models",
-    "title": "Decision making under ambiguity",
-    "section": "2 Multiple priors models",
-    "text": "2 Multiple priors models\nSeveral decision models have been proposed which extend SEU in order to allow a role for ambiguity in decision making. Most notable are the ‘‘maxmin expected utility with multiple priors’’ (MEU) model of Gilboa and Schmeidler (1989), which allows the agent’s beliefs to be represented by a set of probabilities, and the ‘‘Choquet expected utility’’ (CEU) model of Schmeidler (1989), which allows the agent’s beliefs to be represented by a unique but nonadditive probability.\n\n2.1 MinMax Expected Utility\nThe key innovation was to represent preferences using sets of beliefs \\(\\mathcal{P}\\) (multiple priors). Ambiguity can then be described by the size of this belief set. If this set of beliefs contain only on prior, the model reduces to the standard SEU. The MinMax EU model (Gilboa and Schmeidler, 1989) assumes that agents have multiple priors \\(p\\in\\mathcal{P}\\) , and that they deal with ambiguity by acting as if they were using the most pessimistic belief of this set.\n\nInstead of a single known probability distribution, there is a set of plausible distributions. The decision-maker maximizes utility under the worst-case distribution from this set.\n\nBasically, the agent pick the strategy that performs best in the worst-case scenario of expected utility.\nLet \\(A\\) a set of possible actions, \\(S\\) a set of possible states of the world, and \\(u(a,s)\\) the utility of action \\(a∈A\\) in state \\(s∈S\\). The decision-maker has a set of plausible probability distributions \\((\\mathcal{P})\\) over \\(S\\). Then the agent chooses \\(a∗∈A\\) such that: \\[\na∗=\\arg\\max_{a \\in A} \\left( \\min_{P \\in \\mathcal{P}} \\mathbb{E}_P[u(a, s)] \\right)\n\\] This model assumes that the decision-maker is extremely averse to ambiguity by always considering the worst case scenario.\n\n\n2.2 Alpha Expected Utility\nThe Alpha Expected Utility proposed by Ghirardato et al. (2004) is an generalization of the MinMax EU model that relax the assumption that decision-makers are extremely averse to ambiguity.\nConsidering an ambiguous context in which the farmer only knows that the probability of a loss \\((p)\\) lies in a certain interval \\(P \\in [p_{min},p_{max}]\\), risk and ambiguity preferences are represented with the AEU model as: \\[\n\\max EU = \\alpha E_{p_{max}}U(x) + (1 - \\alpha)E_{p_{min}}U(x)\n\\] Where \\(\\alpha \\in [1,0]\\) is the decision-maker ambiguity attitude.\nAmbiguity \\(a\\) is defined as the diameter of the interval \\(P\\), \\(a=p_{max}-p_{min}\\). The maximisation problem can be rewritten as: \\[\nmaxEU = [\\bar p - a(1/2-\\alpha)]U(x) + [1-\\bar p + a(1/2 - \\alpha)]U(x)\n\\] where \\(\\bar p = (p_{min} + p_{max})/2\\) is the mean probability of incurring the loss calculated as the center of the interval \\(P\\)."
+    "text": "PhD Candidate in Business Economics at Wageningen University\n\nMy research focuses on agricultural economics, finance, and risk management. I am passionate about building resilience in agri-food systems through data-driven policy analysis.\n\nContact Me View CV\n\n\n\n\n\n \n\n\n\nLinkedIn  •  GitHub  •  Email"
   }
 ]

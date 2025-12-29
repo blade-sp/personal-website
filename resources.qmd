@@ -3,13 +3,29 @@ title: "Resources"
 format: html
 ---
 
-## Writing
+## Research Projects
 
-[How to write academic papers](write.qmd) <br><br>
-[The publication process](publication_process.qmd)
+::: {.grid}
 
-## Notes
+::: {.g-col-12 .g-col-md-6}
+<div class="project-card">
+### Contracts2.0
+An EU-Horizon project focusing on innovative contract solutions for sustainable agriculture. I worked on data processing and analysis to support policy recommendations.
 
-[Decision-making under ambiguity](ambiguity.qmd)
+<a href="https://www.project-contracts20.eu/" class="project-link" target="_blank">Visit Project &rarr;</a>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="project-card">
+### AgEnRes
+Analyzing the resilience of the agricultural sector. My contribution involves evaluating economic indicators and modelling risk management strategies for European farmers.
+
+<a href="https://agenres.eu/" class="project-link" target="_blank">Visit Project &rarr;</a>
+</div>
+:::
+
+:::
+
 
 ------------------------------------------------------------------------
