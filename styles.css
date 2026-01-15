@@ -11,7 +11,7 @@
   /* Deep blue-grey */
   --color-accent: var(--color-ana-1);
   /* Bright yet professional blue */
-  --color-light: #f8f9fa;
+  --color-light: var(--color-ana-5);
   --color-border: #e9ecef;
 
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);

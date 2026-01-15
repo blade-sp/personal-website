@@ -15,12 +15,10 @@ website:
       - text: CV
         href: cv.qmd
   page-footer:
-    left: "© 2025 Riccardo Spada"
-    right: "Made with [Quarto](https://quarto.org)"
+    center: "© Riccardo Spada 2025"
     # Add a logo or image to the navbar:
     # logo: logo.png   
-    # Add a custom favicon:
-    # favicon: favicon.ico   
+  favicon: assets/favicon/favicon.ico   
 
 format:
   html:

@@ -28,4 +28,7 @@ My research focuses on agricultural economics and risk management. I'm passionat
   <a href="https://github.com/blade-sp" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s;">
     <i class="bi bi-github" style="font-size: 2.2rem;"></i>
   </a>
+    <a href="https://orcid.org/0009-0001-0364-3402" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands orcid >}}
+  </a>
 </div>

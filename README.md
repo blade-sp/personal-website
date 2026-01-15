@@ -23,9 +23,3 @@ PersonalWebsite/
 ## Deployment
 
 The website is deployed via GitHub Pages. 
-
-## Contact
-
-- **Email:** riccardo.spada@wur.nl
-- **LinkedIn:** [Riccardo Spada](https://www.linkedin.com/in/riccardo-spada)
-- **GitHub:** [blade-sp](https://github.com/blade-sp)
