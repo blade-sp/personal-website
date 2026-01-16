@@ -7,6 +7,7 @@ site-url: "https://blade-sp.github.io/personal-website/"
 website:
   title: "Riccardo Spada"
   navbar:
+    logo: assets/RS_logo_transparent.png
     right:
       - text: Home
         href: index.qmd
@@ -15,7 +16,7 @@ website:
       - text: CV
         href: cv.qmd
   page-footer:
-    center: "© Riccardo Spada 2025"
+    center: "© Riccardo Spada 2026"
 
   favicon: assets/favicon/favicon.ico   
 
