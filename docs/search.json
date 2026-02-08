@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Riccardo Spada",
+    "section": "",
+    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
+  },
+  {
+    "objectID": "index.html#phd-candidate---business-economics-group---wageningen-university",
+    "href": "index.html#phd-candidate---business-economics-group---wageningen-university",
+    "title": "Riccardo Spada",
+    "section": "",
+    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -49,17 +63,38 @@
     "text": "Skills\nProgramming & Tools\nSTATA, R, Python, SQL, LaTeX, Git\nLanguages\nEnglish (fluent), Italian (fluent), Spanish (basic), French (basic)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Riccardo Spada",
+    "objectID": "GEMINI.html",
+    "href": "GEMINI.html",
+    "title": "Project Overview",
     "section": "",
-    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
+    "text": "This is a personal website for Riccardo Spada, a PhD Candidate in Business Economics. The website is built using Quarto, a modern scientific and technical publishing system.\nThe website showcases Riccardo’s professional background, including his CV, research projects, and links to his professional profiles.\n\n\n\nQuarto: The primary tool used for building the website. Quarto allows for the creation of dynamic content with R and Python, and supports various output formats.\nHTML/CSS: The website is rendered as HTML, and styled with a custom CSS file (styles.css).\nBootstrap: The website uses the Bootstrap framework for its layout and components.\n\n\n\n\nThe main content of the website is organized into the following files:\n\nindex.qmd: The main landing page, providing a brief introduction and links to other sections.\ncv.qmd: A detailed curriculum vitae, including experience, education, certifications, and skills.\nresources.qmd: A page dedicated to research projects and other resources.\n_quarto.yml: The main configuration file for the Quarto project. It defines the project type, output directory, website title, navigation, and other settings.\nstyles.css: A custom stylesheet for the website.\n\n\n\n\nTo build the website, you need to have Quarto installed. You can install it from the official website: https://quarto.org/docs/get-started/\nOnce Quarto is installed, you can render the website by running the following command in the project’s root directory:\nquarto render\nThis will generate the website in the docs directory, as specified in the _quarto.yml file.\nTo preview the website, you can use the following command:\nquarto preview\nThis will start a local server and open the website in your default browser.\n\n\n\nThe project follows the standard Quarto project structure. Content is written in Quarto’s extended Markdown format (.qmd), and the website’s appearance is customized through the _quarto.yml file and a custom CSS file."
   },
   {
-    "objectID": "index.html#phd-candidate---business-economics-group---wageningen-university",
-    "href": "index.html#phd-candidate---business-economics-group---wageningen-university",
-    "title": "Riccardo Spada",
+    "objectID": "GEMINI.html#key-technologies",
+    "href": "GEMINI.html#key-technologies",
+    "title": "Project Overview",
     "section": "",
-    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
+    "text": "Quarto: The primary tool used for building the website. Quarto allows for the creation of dynamic content with R and Python, and supports various output formats.\nHTML/CSS: The website is rendered as HTML, and styled with a custom CSS file (styles.css).\nBootstrap: The website uses the Bootstrap framework for its layout and components."
+  },
+  {
+    "objectID": "GEMINI.html#project-structure",
+    "href": "GEMINI.html#project-structure",
+    "title": "Project Overview",
+    "section": "",
+    "text": "The main content of the website is organized into the following files:\n\nindex.qmd: The main landing page, providing a brief introduction and links to other sections.\ncv.qmd: A detailed curriculum vitae, including experience, education, certifications, and skills.\nresources.qmd: A page dedicated to research projects and other resources.\n_quarto.yml: The main configuration file for the Quarto project. It defines the project type, output directory, website title, navigation, and other settings.\nstyles.css: A custom stylesheet for the website."
+  },
+  {
+    "objectID": "GEMINI.html#building-and-running",
+    "href": "GEMINI.html#building-and-running",
+    "title": "Project Overview",
+    "section": "",
+    "text": "To build the website, you need to have Quarto installed. You can install it from the official website: https://quarto.org/docs/get-started/\nOnce Quarto is installed, you can render the website by running the following command in the project’s root directory:\nquarto render\nThis will generate the website in the docs directory, as specified in the _quarto.yml file.\nTo preview the website, you can use the following command:\nquarto preview\nThis will start a local server and open the website in your default browser."
+  },
+  {
+    "objectID": "GEMINI.html#development-conventions",
+    "href": "GEMINI.html#development-conventions",
+    "title": "Project Overview",
+    "section": "",
+    "text": "The project follows the standard Quarto project structure. Content is written in Quarto’s extended Markdown format (.qmd), and the website’s appearance is customized through the _quarto.yml file and a custom CSS file."
   }
 ]

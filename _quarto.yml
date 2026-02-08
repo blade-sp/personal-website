@@ -1,6 +1,6 @@
-project: 
+project:
   type: website
-  output-dir: docs 
+  output-dir: docs
 
 site-url: "https://blade-sp.github.io/personal-website/"
 

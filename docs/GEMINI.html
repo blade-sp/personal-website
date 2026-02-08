@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resources – Riccardo Spada</title>
+<title>gemini – Riccardo Spada</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -99,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+    <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
@@ -119,48 +154,50 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Resources</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="research-projects" class="level2">
-<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<section id="contracts2.0" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="contracts2.0">Contracts2.0</h3>
-<p>EU-Horizon project exploring innovative contract solutions in the agri-food sector. I worked on data processing and analysis with R.</p>
-<p><a href="https://www.project-contracts20.eu/" class="project-link" target="_blank">Project Website →</a></p>
+<section id="project-overview" class="level1">
+<h1>Project Overview</h1>
+<p>This is a personal website for Riccardo Spada, a PhD Candidate in Business Economics. The website is built using <a href="https://quarto.org/">Quarto</a>, a modern scientific and technical publishing system.</p>
+<p>The website showcases Riccardo’s professional background, including his CV, research projects, and links to his professional profiles.</p>
+<section id="key-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="key-technologies">Key Technologies</h2>
+<ul>
+<li><strong>Quarto:</strong> The primary tool used for building the website. Quarto allows for the creation of dynamic content with R and Python, and supports various output formats.</li>
+<li><strong>HTML/CSS:</strong> The website is rendered as HTML, and styled with a custom CSS file (<code>styles.css</code>).</li>
+<li><strong>Bootstrap:</strong> The website uses the Bootstrap framework for its layout and components.</li>
+</ul>
 </section>
-</div>
-<div class="g-col-12 g-col-md-6">
-<section id="agenres" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="agenres">AgEnRes</h3>
-<p>EU-Horizon project focusing on Agricultural Energy Resilience. My contribution involves evaluating behavioral drivers of risk management tools adoption and developing risk management strategies for European farmers.</p>
-<p><a href="https://agenres.eu/" class="project-link" target="_blank">Project Website →</a></p>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<p>The main content of the website is organized into the following files:</p>
+<ul>
+<li><code>index.qmd</code>: The main landing page, providing a brief introduction and links to other sections.</li>
+<li><code>cv.qmd</code>: A detailed curriculum vitae, including experience, education, certifications, and skills.</li>
+<li><code>resources.qmd</code>: A page dedicated to research projects and other resources.</li>
+<li><code>_quarto.yml</code>: The main configuration file for the Quarto project. It defines the project type, output directory, website title, navigation, and other settings.</li>
+<li><code>styles.css</code>: A custom stylesheet for the website.</li>
+</ul>
 </section>
-</div>
-</div>
-<hr>
+<section id="building-and-running" class="level2">
+<h2 class="anchored" data-anchor-id="building-and-running">Building and Running</h2>
+<p>To build the website, you need to have Quarto installed. You can install it from the official website: <a href="https://quarto.org/docs/get-started/">https://quarto.org/docs/get-started/</a></p>
+<p>Once Quarto is installed, you can render the website by running the following command in the project’s root directory:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will generate the website in the <code>docs</code> directory, as specified in the <code>_quarto.yml</code> file.</p>
+<p>To preview the website, you can use the following command:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This will start a local server and open the website in your default browser.</p>
+</section>
+<section id="development-conventions" class="level2">
+<h2 class="anchored" data-anchor-id="development-conventions">Development Conventions</h2>
+<p>The project follows the standard Quarto project structure. Content is written in Quarto’s extended Markdown format (<code>.qmd</code>), and the website’s appearance is customized through the <code>_quarto.yml</code> file and a custom CSS file.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
