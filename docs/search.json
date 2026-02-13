@@ -1,31 +1,24 @@
 [
   {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Research\n\n\n\n\n\n\nFinancial Dashboards"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Riccardo Spada",
     "section": "",
-    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
+    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance."
   },
   {
     "objectID": "index.html#phd-candidate---business-economics-group---wageningen-university",
     "href": "index.html#phd-candidate---business-economics-group---wageningen-university",
     "title": "Riccardo Spada",
     "section": "",
-    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\n\nResources View CV"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "EU-Horizon project exploring innovative contract solutions in the agri-food sector. I worked on data processing and analysis with R.\nProject Website →\n\n\n\n\n\nEU-Horizon project focusing on Agricultural Energy Resilience. My contribution involves evaluating behavioral drivers of risk management tools adoption and developing risk management strategies for European farmers.\nProject Website →"
-  },
-  {
-    "objectID": "resources.html#research-projects",
-    "href": "resources.html#research-projects",
-    "title": "Resources",
-    "section": "",
-    "text": "EU-Horizon project exploring innovative contract solutions in the agri-food sector. I worked on data processing and analysis with R.\nProject Website →\n\n\n\n\n\nEU-Horizon project focusing on Agricultural Energy Resilience. My contribution involves evaluating behavioral drivers of risk management tools adoption and developing risk management strategies for European farmers.\nProject Website →"
+    "text": "My research focuses on agricultural economics and risk management. I’m passionate about data and personal finance."
   },
   {
     "objectID": "cv.html",
@@ -63,38 +56,24 @@
     "text": "Skills\nProgramming & Tools\nSTATA, R, Python, SQL, LaTeX, Git\nLanguages\nEnglish (fluent), Italian (fluent), Spanish (basic), French (basic)"
   },
   {
-    "objectID": "GEMINI.html",
-    "href": "GEMINI.html",
-    "title": "Project Overview",
+    "objectID": "compound_interest.html",
+    "href": "compound_interest.html",
+    "title": "Compound Interest Calculator",
     "section": "",
-    "text": "This is a personal website for Riccardo Spada, a PhD Candidate in Business Economics. The website is built using Quarto, a modern scientific and technical publishing system.\nThe website showcases Riccardo’s professional background, including his CV, research projects, and links to his professional profiles.\n\n\n\nQuarto: The primary tool used for building the website. Quarto allows for the creation of dynamic content with R and Python, and supports various output formats.\nHTML/CSS: The website is rendered as HTML, and styled with a custom CSS file (styles.css).\nBootstrap: The website uses the Bootstrap framework for its layout and components.\n\n\n\n\nThe main content of the website is organized into the following files:\n\nindex.qmd: The main landing page, providing a brief introduction and links to other sections.\ncv.qmd: A detailed curriculum vitae, including experience, education, certifications, and skills.\nresources.qmd: A page dedicated to research projects and other resources.\n_quarto.yml: The main configuration file for the Quarto project. It defines the project type, output directory, website title, navigation, and other settings.\nstyles.css: A custom stylesheet for the website.\n\n\n\n\nTo build the website, you need to have Quarto installed. You can install it from the official website: https://quarto.org/docs/get-started/\nOnce Quarto is installed, you can render the website by running the following command in the project’s root directory:\nquarto render\nThis will generate the website in the docs directory, as specified in the _quarto.yml file.\nTo preview the website, you can use the following command:\nquarto preview\nThis will start a local server and open the website in your default browser.\n\n\n\nThe project follows the standard Quarto project structure. Content is written in Quarto’s extended Markdown format (.qmd), and the website’s appearance is customized through the _quarto.yml file and a custom CSS file."
+    "text": "This interactive tool allows you to calculate the future value of an investment with compound interest.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n\nlibrary(shiny)\n\nui &lt;- fluidPage(\n  h2(\"Compound Interest Calculator\"),\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(\"principal\", \"Principal Amount\", 1000, 100000, 10000, step = 1000),\n      sliderInput(\"rate\", \"Annual Interest Rate (%)\", 0.1, 20.0, 5.0, step = 0.1),\n      sliderInput(\"years\", \"Number of Years\", 1, 50, 10, step = 1)\n    ),\n    mainPanel(\n      h3(\"Future Value:\"),\n      textOutput(\"future_value\")\n    )\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  output$future_value &lt;- renderText({\n    P &lt;- input$principal\n    r &lt;- input$rate / 100\n    n &lt;- input$years\n    A &lt;- P * (1 + r)^n\n    paste0(\"$\", format(round(A, 2), big.mark = \",\"))\n  })\n}\n\nshinyApp(ui, server)"
   },
   {
-    "objectID": "GEMINI.html#key-technologies",
-    "href": "GEMINI.html#key-technologies",
-    "title": "Project Overview",
+    "objectID": "dashboards.html",
+    "href": "dashboards.html",
+    "title": "Financial Dashboards",
     "section": "",
-    "text": "Quarto: The primary tool used for building the website. Quarto allows for the creation of dynamic content with R and Python, and supports various output formats.\nHTML/CSS: The website is rendered as HTML, and styled with a custom CSS file (styles.css).\nBootstrap: The website uses the Bootstrap framework for its layout and components."
+    "text": "Coming soon…"
   },
   {
-    "objectID": "GEMINI.html#project-structure",
-    "href": "GEMINI.html#project-structure",
-    "title": "Project Overview",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "The main content of the website is organized into the following files:\n\nindex.qmd: The main landing page, providing a brief introduction and links to other sections.\ncv.qmd: A detailed curriculum vitae, including experience, education, certifications, and skills.\nresources.qmd: A page dedicated to research projects and other resources.\n_quarto.yml: The main configuration file for the Quarto project. It defines the project type, output directory, website title, navigation, and other settings.\nstyles.css: A custom stylesheet for the website."
-  },
-  {
-    "objectID": "GEMINI.html#building-and-running",
-    "href": "GEMINI.html#building-and-running",
-    "title": "Project Overview",
-    "section": "",
-    "text": "To build the website, you need to have Quarto installed. You can install it from the official website: https://quarto.org/docs/get-started/\nOnce Quarto is installed, you can render the website by running the following command in the project’s root directory:\nquarto render\nThis will generate the website in the docs directory, as specified in the _quarto.yml file.\nTo preview the website, you can use the following command:\nquarto preview\nThis will start a local server and open the website in your default browser."
-  },
-  {
-    "objectID": "GEMINI.html#development-conventions",
-    "href": "GEMINI.html#development-conventions",
-    "title": "Project Overview",
-    "section": "",
-    "text": "The project follows the standard Quarto project structure. Content is written in Quarto’s extended Markdown format (.qmd), and the website’s appearance is customized through the _quarto.yml file and a custom CSS file."
+    "text": "Coming soon…"
   }
 ]

@@ -3,29 +3,25 @@ title: "Resources"
 format: html
 ---
 
-## Research Projects
-
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
+<a href="research.qmd" class="project-card-link">
 <div class="project-card">
-### Contracts2.0
-EU-Horizon project exploring innovative contract solutions in the agri-food sector. I worked on data processing and analysis with R.
-
-<a href="https://www.project-contracts20.eu/" class="project-link" target="_blank">Project Website &rarr;</a>
+### Research
 </div>
+</a>
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+<a href="dashboards.qmd" class="project-card-link">
 <div class="project-card">
-### AgEnRes
-EU-Horizon project focusing on Agricultural Energy Resilience. My contribution involves evaluating behavioral drivers of risk management tools adoption and developing risk management strategies for European farmers.
-
-<a href="https://agenres.eu/" class="project-link" target="_blank">Project Website &rarr;</a>
+### Financial Dashboards
 </div>
+</a>
 :::
 
-:::
 
+:::
 
 ------------------------------------------------------------------------

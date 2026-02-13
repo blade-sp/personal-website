@@ -1,2 +1,5 @@
 /.quarto/
 GEMINI.md
+CLAUDE.md
+
+**/*.quarto_ipynb

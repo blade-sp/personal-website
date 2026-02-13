@@ -13,8 +13,23 @@ My research focuses on agricultural economics and risk management. I'm passionat
 
 <br>
 
-<a href="resources.qmd" class="btn-primary">Resources</a>
-<a href="cv.qmd" class="btn-primary">View CV</a>
+<div class="text-center mt-4">
+  <a href="https://www.linkedin.com/in/riccardo-spada" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands linkedin >}}
+  </a>
+  <a href="https://github.com/blade-sp" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands github >}}
+  </a>
+  <a href="https://orcid.org/0009-0001-0364-3402" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands orcid >}}
+  </a>
+  <a href="https://www.researchgate.net/profile/Riccardo-Spada-3" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands researchgate >}}
+  </a>
+  <a href="https://scholar.google.com/citations?user=3i7Aqy8AAAAJ&hl=en" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
+    {{< fa brands google-scholar >}}
+  </a>
+</div>
 :::
 
 ::: {.profile-img-container}
@@ -22,14 +37,3 @@ My research focuses on agricultural economics and risk management. I'm passionat
 :::
 :::
 
-<div class="text-center mt-4">
-  <a href="https://www.linkedin.com/in/riccardo-spada" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s;">
-    <i class="bi bi-linkedin" style="font-size: 2.2rem;"></i>
-  </a>
-  <a href="https://github.com/blade-sp" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s;">
-    <i class="bi bi-github" style="font-size: 2.2rem;"></i>
-  </a>
-    <a href="https://orcid.org/0009-0001-0364-3402" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands orcid >}}
-  </a>
-</div>
