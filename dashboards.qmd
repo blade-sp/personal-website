@@ -3,4 +3,4 @@ title: "Financial Dashboards"
 format: html
 ---
 
-Coming soon...
+[Compounding](dashboards/compound_interest.qmd)

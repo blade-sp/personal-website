@@ -37,5 +37,11 @@
   },
   "dashboards.qmd": {
     "dashboards.html": "07a1556b"
+  },
+  "dashboards/compound_interest.qmd": {
+    "compound_interest.html": "46e492ad"
+  },
+  "blog.qmd": {
+    "blog.html": "350670c4"
   }
 }

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Compound Interest Calculator – Riccardo Spada</title>
+<title>Blog – Riccardo Spada</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,11 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-e05cd4aec2b11290d9a36b1f6b2d13c0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<meta name="shinylive:serviceworker_dir" content=".">
-<script src="site_libs/quarto-contrib/shinylive-0.9.1/shinylive/load-shinylive-sw.js" type="module"></script>
-<script src="site_libs/quarto-contrib/shinylive-0.9.1/shinylive/run-python-blocks.js" type="module"></script>
-<link href="site_libs/quarto-contrib/shinylive-0.9.1/shinylive/shinylive.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -121,21 +116,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Compound Interest Calculator</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -147,41 +142,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This interactive tool allows you to calculate the future value of an investment with compound interest.</p>
-<pre class="shinylive-r" data-engine="r"><code>#| '!! shinylive warning !!': |
-#|   shinylive does not work in self-contained HTML documents.
-#|   Please set `embed-resources: false` in your metadata.
-#| standalone: true
-
-library(shiny)
-
-ui &lt;- fluidPage(
-  h2("Compound Interest Calculator"),
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("principal", "Principal Amount", 1000, 100000, 10000, step = 1000),
-      sliderInput("rate", "Annual Interest Rate (%)", 0.1, 20.0, 5.0, step = 0.1),
-      sliderInput("years", "Number of Years", 1, 50, 10, step = 1)
-    ),
-    mainPanel(
-      h3("Future Value:"),
-      textOutput("future_value")
-    )
-  )
-)
-
-server &lt;- function(input, output, session) {
-  output$future_value &lt;- renderText({
-    P &lt;- input$principal
-    r &lt;- input$rate / 100
-    n &lt;- input$years
-    A &lt;- P * (1 + r)^n
-    paste0("$", format(round(A, 2), big.mark = ","))
-  })
-}
-
-shinyApp(ui, server)
-</code></pre>
+<p>Posts coming soon.</p>
 
 
 

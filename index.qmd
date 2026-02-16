@@ -1,15 +1,18 @@
 ---
-pagetitle: "Riccardo Spada"
+pagetitle: "Riccardo Spada - Home"
 format: html
 ---
 
 ::: {.hero-section}
 ::: {.hero-text}
 
-## PhD Candidate - Business Economics Group - Wageningen University
+## Riccardo Spada
+
+PhD Candidate - Business Economics Group - Wageningen University
 
 My research focuses on agricultural economics and risk management. I'm passionate about data and personal finance.
 
+R and Linux user.
 
 <br>
 

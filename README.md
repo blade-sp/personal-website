@@ -1,16 +1,15 @@
 # PersonalWebsite
 
-This repository contains the source code and content for my personal website. The website showcases my projects and CV.
+This repository contains the source code and content for my personal website.
 
 ## Structure
 
 ```
-PersonalWebsite/
-├── README.md       # This file
-├── assets/         # Images and cv files
-├── index.html      # Main landing page
-├── resources.html  # Resources and links page
-├── cv.html         # CV download page
+README.md       # This file
+assets/         # Images and cv files
+index.qmd       # Main landing page
+resources.qmd   # Resources and links page
+cv.qmd          # CV page
 ```
 
 ## Deployment

@@ -1,0 +1,86 @@
+---
+title: "Compound Interest Calculator"
+filters:
+ - shinylive
+---
+
+This tool allows you to calculate the future value of an investment with compound interest.
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 800
+
+library(shiny)
+
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      numericInput("principal", "Initial Investment ($)", value = 10000, min = 0, step = 100),
+      numericInput("monthly", "Monthly Contribution ($)", value = 100, min = 0, step = 10),
+      sliderInput("rate", "Annual Interest Rate (%)", min = 0.1, max = 15, value = 7, step = 0.1),
+      sliderInput("years", "Investment Horizon (Years)", min = 1, max = 40, value = 20, step = 1)
+    ),
+    mainPanel(
+      h3("Results"),
+      tableOutput("summary"),
+      h4("Year-by-Year Breakdown"),
+      tableOutput("yearly_table")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+
+  results <- reactive({
+    P <- input$principal
+    C <- input$monthly
+    r <- input$rate / 100 / 12
+    months <- input$years * 12
+
+    balance <- numeric(months + 1)
+    invested <- numeric(months + 1)
+    balance[1] <- P
+    invested[1] <- P
+
+    for (i in 2:(months + 1)) {
+      balance[i] <- balance[i - 1] * (1 + r) + C
+      invested[i] <- invested[i - 1] + C
+    }
+
+    data.frame(
+      Month = 0:months,
+      Year = (0:months) / 12,
+      Balance = balance,
+      Invested = invested,
+      Gains = balance - invested
+    )
+  })
+
+  output$summary <- renderTable({
+    data <- results()
+    final <- data[nrow(data), ]
+    data.frame(
+      Metric = c("Total Invested", "Final Balance", "Total Gains", "Return (%)"),
+      Value = c(
+        paste0("$", formatC(final$Invested, format = "f", digits = 0, big.mark = ",")),
+        paste0("$", formatC(final$Balance, format = "f", digits = 0, big.mark = ",")),
+        paste0("$", formatC(final$Gains, format = "f", digits = 0, big.mark = ",")),
+        paste0(round(final$Gains / final$Invested * 100, 1), "%")
+      )
+    )
+  }, striped = TRUE, width = "100%")
+
+  output$yearly_table <- renderTable({
+    data <- results()
+    yearly <- data[data$Month %% 12 == 0 & data$Month > 0, ]
+    data.frame(
+      Year = as.integer(yearly$Year),
+      Invested = paste0("$", formatC(yearly$Invested, format = "f", digits = 0, big.mark = ",")),
+      Balance = paste0("$", formatC(yearly$Balance, format = "f", digits = 0, big.mark = ",")),
+      Gains = paste0("$", formatC(yearly$Gains, format = "f", digits = 0, big.mark = ","))
+    )
+  }, striped = TRUE, width = "100%")
+}
+
+shinyApp(ui, server)
+```
