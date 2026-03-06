@@ -2,5 +2,7 @@
 title: "Research"
 format: html
 ---
-
-Coming soon...
+ 
+## Journal Articles
+Laura Moritz, **Riccardo Spada**, Jens Rommel, Tobias Dalhaus, Simone Cerroni <br>
+**Risk preferences and other (ignored) behavioral factors in fertilizer management decisions: A systematic literature review**, *Journal of Behavioral and Experimental Economics*, Volume 121, 2026, 102524, [https://doi.org/10.1016/j.socec.2026.102524](https://doi.org/10.1016/j.socec.2026.102524)

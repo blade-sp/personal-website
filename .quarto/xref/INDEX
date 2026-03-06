@@ -43,5 +43,8 @@
   },
   "blog.qmd": {
     "blog.html": "350670c4"
+  },
+  "blogpost/positron_config.qmd": {
+    "positron_config.html": "ab1b3d3d"
   }
 }

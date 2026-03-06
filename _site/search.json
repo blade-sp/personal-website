@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Laura Moritz, Riccardo Spada, Jens Rommel, Tobias Dalhaus, Simone Cerroni  Risk preferences and other (ignored) behavioral factors in fertilizer management decisions: A systematic literature review, Journal of Behavioral and Experimental Economics, Volume 121, 2026, 102524, https://doi.org/10.1016/j.socec.2026.102524"
+  },
+  {
+    "objectID": "research.html#journal-articles",
+    "href": "research.html#journal-articles",
+    "title": "Research",
+    "section": "",
+    "text": "Laura Moritz, Riccardo Spada, Jens Rommel, Tobias Dalhaus, Simone Cerroni  Risk preferences and other (ignored) behavioral factors in fertilizer management decisions: A systematic literature review, Journal of Behavioral and Experimental Economics, Volume 121, 2026, 102524, https://doi.org/10.1016/j.socec.2026.102524"
+  },
+  {
+    "objectID": "dashboards/compound_interest.html",
+    "href": "dashboards/compound_interest.html",
+    "title": "Compound Interest Calculator",
+    "section": "",
+    "text": "This tool allows you to calculate the future value of an investment with compound interest.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 800\n\nlibrary(shiny)\n\nui &lt;- fluidPage(\n  sidebarLayout(\n    sidebarPanel(\n      numericInput(\"principal\", \"Initial Investment ($)\", value = 10000, min = 0, step = 100),\n      numericInput(\"monthly\", \"Monthly Contribution ($)\", value = 100, min = 0, step = 10),\n      sliderInput(\"rate\", \"Annual Interest Rate (%)\", min = 0.1, max = 15, value = 7, step = 0.1),\n      sliderInput(\"years\", \"Investment Horizon (Years)\", min = 1, max = 40, value = 20, step = 1)\n    ),\n    mainPanel(\n      h3(\"Results\"),\n      tableOutput(\"summary\"),\n      h4(\"Year-by-Year Breakdown\"),\n      tableOutput(\"yearly_table\")\n    )\n  )\n)\n\nserver &lt;- function(input, output, session) {\n\n  results &lt;- reactive({\n    P &lt;- input$principal\n    C &lt;- input$monthly\n    r &lt;- input$rate / 100 / 12\n    months &lt;- input$years * 12\n\n    balance &lt;- numeric(months + 1)\n    invested &lt;- numeric(months + 1)\n    balance[1] &lt;- P\n    invested[1] &lt;- P\n\n    for (i in 2:(months + 1)) {\n      balance[i] &lt;- balance[i - 1] * (1 + r) + C\n      invested[i] &lt;- invested[i - 1] + C\n    }\n\n    data.frame(\n      Month = 0:months,\n      Year = (0:months) / 12,\n      Balance = balance,\n      Invested = invested,\n      Gains = balance - invested\n    )\n  })\n\n  output$summary &lt;- renderTable({\n    data &lt;- results()\n    final &lt;- data[nrow(data), ]\n    data.frame(\n      Metric = c(\"Total Invested\", \"Final Balance\", \"Total Gains\", \"Return (%)\"),\n      Value = c(\n        paste0(\"$\", formatC(final$Invested, format = \"f\", digits = 0, big.mark = \",\")),\n        paste0(\"$\", formatC(final$Balance, format = \"f\", digits = 0, big.mark = \",\")),\n        paste0(\"$\", formatC(final$Gains, format = \"f\", digits = 0, big.mark = \",\")),\n        paste0(round(final$Gains / final$Invested * 100, 1), \"%\")\n      )\n    )\n  }, striped = TRUE, width = \"100%\")\n\n  output$yearly_table &lt;- renderTable({\n    data &lt;- results()\n    yearly &lt;- data[data$Month %% 12 == 0 & data$Month &gt; 0, ]\n    data.frame(\n      Year = as.integer(yearly$Year),\n      Invested = paste0(\"$\", formatC(yearly$Invested, format = \"f\", digits = 0, big.mark = \",\")),\n      Balance = paste0(\"$\", formatC(yearly$Balance, format = \"f\", digits = 0, big.mark = \",\")),\n      Gains = paste0(\"$\", formatC(yearly$Gains, format = \"f\", digits = 0, big.mark = \",\"))\n    )\n  }, striped = TRUE, width = \"100%\")\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF Version"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\n\nPolicy Analyst (Intern)\nOECD - Trade and Agriculture Directorate (TAD-ARP)\n2023–2024\n\nConducted research and analysis on agricultural policies.\nContributed to reports on resource sustainability and trade trade.\n\n\n\nResearch Assistant\nSwedish University of Agricultural Sciences (SLU)\n2022–2023\n\nPerformed data cleaning and statistical analysis for the EU-Horizon project “Contracts2.0”.\nAssisted in preparing datasets for economic modelling."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD in Agricultural Economics\nWageningen University & Research, Netherlands\n2024–Present\n\n\nDouble Master’s program in Agricultural, Food, and Environmental Policy Analysis (AFEPA)\n\nMSc in Business and Economics\nSwedish University of Agricultural Sciences (SLU), Sweden\nMSc in Agricultural and Food Economics\nUniversita Cattolica del Sacro Cuore, Italy\n\n2021–2024\n\n\nBSc in Biotechnology\nUniversity of Verona, Italy\n2017–2021"
+  },
+  {
+    "objectID": "cv.html#certifications",
+    "href": "cv.html#certifications",
+    "title": "Curriculum Vitae",
+    "section": "Certifications",
+    "text": "Certifications\n\nGoogle Data Analyst Professional Certificate (Coursera, Feb 2023)\nIELTS English level C1 (British Council, Oct 2021)"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nProgramming & Tools\nSTATA, R, Python, SQL, LaTeX, Git\nLanguages\nEnglish (fluent), Italian (fluent), Spanish (basic), French (basic)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Positron Configuration for Research and Data Science\n\n\n\n\n\n\n\n\nMar 6, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogpost/positron_config.html",
+    "href": "blogpost/positron_config.html",
+    "title": "Positron Configuration for Research and Data Science",
+    "section": "",
+    "text": "I started learning R using RStudio, which I think is an an excellent IDE. However, when using other languages I started using VSCode and fell in love with how much you can extend and personlize it. However, I didn’t like how R was integrated in VSCode. That’s when I discovered Positron, a fork of VSCode built by Posit that combines what I like of RStudio with the features of Visual Studio Code."
+  },
+  {
+    "objectID": "blogpost/positron_config.html#why-i-use-positron",
+    "href": "blogpost/positron_config.html#why-i-use-positron",
+    "title": "Positron Configuration for Research and Data Science",
+    "section": "",
+    "text": "I started learning R using RStudio, which I think is an an excellent IDE. However, when using other languages I started using VSCode and fell in love with how much you can extend and personlize it. However, I didn’t like how R was integrated in VSCode. That’s when I discovered Positron, a fork of VSCode built by Posit that combines what I like of RStudio with the features of Visual Studio Code."
+  },
+  {
+    "objectID": "blogpost/positron_config.html#personalizing-positron",
+    "href": "blogpost/positron_config.html#personalizing-positron",
+    "title": "Positron Configuration for Research and Data Science",
+    "section": "Personalizing Positron",
+    "text": "Personalizing Positron\nJust like VSCode, Positron is highly customizable. Below I share the extensions and settings I use. This are only suggestions and a work in progress, I will keep updating it as I discover new useful stuff.\n\nExtensions\n\nAir for R language support and formatting\nShiny for Shiny app development\nQuarto for Quarto documents\nRainbow CSV for CSV file editing\n\n\n\nSettings\nThe settings below are defined in settings.json. In Positron you can access this file by opening the command palette (Ctrl + Shift + P) and searching for “Preferences: Open Settings (JSON)”. You can copy-paste the settings below in your own file.\n\n\nClick here to expand\n\n{\n    \"files.associations\": {\n        \"renv.lock\": \"json\"\n    },\n\n    // R specific settings\n    \"[r]\": {\n        \"editor.formatOnSave\": true,\n        \"editor.defaultFormatter\": \"Posit.air-vscode\"\n    },\n\n    // Quarto specific settings\n    \"[quarto]\": {\n        \"editor.formatOnSave\": true,\n        \"editor.defaultFormatter\": \"quarto.quarto\"\n    },\n\n    // Enable Positron's built-in AI assistant\n    \"positron.assistant.enable\": true,\n\n    // Use Material icons in the file explorer\n    \"workbench.iconTheme\": \"material-icon-theme\",\n\n    // Don't open a welcome tab on launch\n    \"workbench.startupEditor\": \"none\",\n\n    // Automatically fetch from remote repositories\n   \"git.autofetch\": true,\n\n    // Use RStudio-style keybindings as the baseline\n    \"workbench.keybindings.rstudioKeybindings\": true,\n\n    // Use Git Bash as the default terminal\n    \"terminal.integrated.defaultProfile.windows\": \"Git Bash\",\n\n    // Ignore trailing whitespace in diffs\n    \"diffEditor.ignoreTrimWhitespace\": true,\n\n    // Custom template for the (custom template) the title bar\n    \"window.title\": \"${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${activeRepositoryBranchName}\",\n\n    // Preview SVGs as rendered images\n    \"svg.preview.mode\": \"svg\",\n\n    // Collapse summary statistics panel by default\n    \"dataExplorer.summaryCollapsed\": true,\n\n    // Show a vertical ruler at 80 characters\n    \"editor.rulers\": [80],\n\n    // Theme\n    \"workbench.colorTheme\": \"Catppuccin Frappé\",\n\n    // Disable shell integration to have bash terminal run faster\n    \"terminal.integrated.shellIntegration.enabled\": false\n\n}\n\n\n\nCustom Keyboard Shortcuts\nIn the settings we enabled the RStudio keybindings (workbench.keybindings.rstudioKeybindings: true). Additional custom keybindings are defined in keybindings.json. You can access this file by again opening the command palette (Ctrl + Shift + P) and searching for “Preferences: Open Keyboard Shortcuts (JSON)”. Below are some of the custom keybindings I use, but you can customize them as you like.\nCtrl + Alt + B Toggle the secondary sidebar (auxiliary bar) on/off\n\n\nClick here to expand\n\n[\n{ \"key\": \"ctrl+alt+b\",\n    \"command\": \"workbench.action.toggleAuxiliaryBar\" },\n]"
+  },
+  {
+    "objectID": "dashboards.html",
+    "href": "dashboards.html",
+    "title": "Financial Dashboards",
+    "section": "",
+    "text": "Compound Interest\n\n\nVisualize how your investments grow over time with the power of compounding."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Riccardo Spada",
+    "section": "",
+    "text": "I’m a PhD Candidate in the Business Economics Group at Wageningen University & Research.\nMy research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\nR and Linux user."
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Riccardo Spada",
+    "section": "",
+    "text": "I’m a PhD Candidate in the Business Economics Group at Wageningen University & Research.\nMy research focuses on agricultural economics and risk management. I’m passionate about data and personal finance.\nR and Linux user."
+  }
+]

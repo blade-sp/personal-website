@@ -3,4 +3,16 @@ title: "Financial Dashboards"
 format: html
 ---
 
-[Compounding](dashboards/compound_interest.qmd)
+<div class="grid">
+
+<div class="g-col-4">
+<a href="dashboards/compound_interest.qmd" class="project-card-link">
+<div class="project-card">
+<h3>Compound Interest</h3>
+<p>Visualize how your investments grow over time with the power of compounding.</p>
+</div>
+</a>
+</div>
+
+
+</div>

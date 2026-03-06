@@ -3,40 +3,24 @@ pagetitle: "Riccardo Spada - Home"
 format: html
 ---
 
-::: {.hero-section}
-::: {.hero-text}
+::: {.grid}
 
-## Riccardo Spada
+::: {.g-col-8}
 
-PhD Candidate - Business Economics Group - Wageningen University
+## Hello!
+
+I'm a PhD Candidate in the [Business Economics Group](https://www.wur.nl/en/chair-groups/business-science/business-economics) at [Wageningen University & Research](https://www.wur.nl/en).
 
 My research focuses on agricultural economics and risk management. I'm passionate about data and personal finance.
 
 R and Linux user.
 
-<br>
-
-<div class="text-center mt-4">
-  <a href="https://www.linkedin.com/in/riccardo-spada" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands linkedin >}}
-  </a>
-  <a href="https://github.com/blade-sp" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands github >}}
-  </a>
-  <a href="https://orcid.org/0009-0001-0364-3402" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands orcid >}}
-  </a>
-  <a href="https://www.researchgate.net/profile/Riccardo-Spada-3" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands researchgate >}}
-  </a>
-  <a href="https://scholar.google.com/citations?user=3i7Aqy8AAAAJ&hl=en" class="text-decoration-none" style="color: var(--color-primary); margin: 0 15px; transition: opacity 0.2s; font-size: 2.2rem;">
-    {{< fa brands google-scholar >}}
-  </a>
-</div>
 :::
 
-::: {.profile-img-container}
+::: {.g-col-4 .profile-img-container}
+
 ![](assets/ProfilePic.jpg)
-:::
+
 :::
 
+:::

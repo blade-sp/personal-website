@@ -1,10 +1,4 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');
-
 :root {
-  --font-sans: 'Inter', sans-serif;
-  --font-serif: 'Playfair Display', serif;
-
   --color-bg: #ffffff;
   --color-text: #2c3e50;
   --color-primary: oklch(30% 0.13 241); 
@@ -23,31 +17,24 @@
 }
 
 body {
-  font-family: var(--font-sans);
   color: var(--color-text);
   line-height: 1.8;
   background-color: var(--color-bg);
 }
 
 h1 {
-  font-family: var(--font-serif);
-  font-weight: 700;
   color: var(--color-primary);
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 h2 {
-  font-family: var(--font-serif);
-  font-weight: 700;
   color: var(--color-secondary);
   margin-top: 1.5em;
   margin-bottom: 0.75em;
 }
 
 h3 {
-  font-family: var(--font-serif);
-  font-weight: 700;
   color: var(--color-tertiary);
   margin-top: 1.5em;
   margin-bottom: 0.75em;
@@ -56,9 +43,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-family: var(--font-serif);
   color: var(--color-primary);
-  font-weight: 700;
   margin-top: 1.5em;
   margin-bottom: 0.75em;
 }
@@ -78,12 +63,11 @@ a:hover {
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--color-border);
-  padding: 1rem 0;
+  padding: 0.25rem 0;
   color: var(--color-primary);
 }
 
 .navbar-brand {
-  font-family: var(--font-serif);
   font-weight: 700;
   letter-spacing: -0.5px;
   font-size: 1.5rem;
@@ -188,13 +172,12 @@ a:hover {
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-lg);
-  border-color: transparent;
+  border-color: var(--color-primary);
 }
 
 .project-card h3 {
   margin-top: 0;
   font-size: 1.5rem;
-  font-family: var(--font-sans);
   font-weight: 600;
 }
 
@@ -217,7 +200,7 @@ a:hover {
 /* Footer */
 .footer {
   margin-top: 5rem;
-  padding: 2rem 0;
+  padding: 0.25rem 0;
   text-align: center;
   color: #666;
   font-size: 0.9rem;

@@ -1,6 +1,9 @@
 ---
 title: "Blog"
+listing:
+  contents: blogpost
+  type: default
+  sort: "date desc"
+  fields: [title, date, description]
 format: html
 ---
-
-Posts coming soon.
