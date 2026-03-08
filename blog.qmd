@@ -4,6 +4,6 @@ listing:
   contents: blogpost
   type: default
   sort: "date desc"
-  fields: [title, date, description]
+  fields: [image, title, date, description]
 format: html
 ---

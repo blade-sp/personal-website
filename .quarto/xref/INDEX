@@ -46,5 +46,8 @@
   },
   "blogpost/positron_config.qmd": {
     "positron_config.html": "ab1b3d3d"
+  },
+  "blogpost/20260306_positron_config/positron_config.qmd": {
+    "positron_config.html": "d73d8ef5"
   }
 }

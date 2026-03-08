@@ -1,0 +1,171 @@
+---
+date: "2026-03-06"
+title: "Positron Configuration for Research and Data Science"
+author: "Riccardo Spada"
+image: positron-logo.svg
+format: html
+---
+
+## Why I use Positron?
+
+I started learning R using RStudio, which I think is an an excellent IDE. However, when using other languages I started using [VSCode](https://code.visualstudio.com/) and fell in love with how much you can extend and personlize it. However, I didn't like how R was integrated in VSCode. That's when I discovered [Positron](https://positron.posit.co/), a fork of VSCode built by Posit that combines what I like of RStudio with the features of Visual Studio Code.
+
+## Personalizing Positron
+
+Just like VSCode, Positron is highly customizable. Below I share the extensions and settings I use. This are only suggestions and a work in progress, I will keep updating it as I discover new useful stuff. 
+
+### Extensions
+
+- [Air](https://marketplace.visualstudio.com/items?itemName=Posit.air-vscode) for R language support and formatting
+- [Shiny](https://marketplace.visualstudio.com/items?itemName=Posit.shiny-vscode) for Shiny app development
+- [Quarto](https://marketplace.visualstudio.com/items?itemName=Posit.quarto-vscode) for Quarto documents
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) for better file icons.
+- [Catppuccin Theme](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) for a nice color theme.
+
+In VSCode I was using [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) to look at .csv files, in Positron this is not needed as CSV files are rendered as tables by default, but if you are on VSCode-like editors you might be interested in it.
+
+### Settings
+
+The settings below are defined in `settings.json`. In Positron you can access this file by opening the command palette (`Ctrl + Shift + P`) and searching for "Preferences: Open Settings (JSON)". You can expand to see the full JSON that you can copy-paste to your `settings.json`, followed by an explanation of what each setting does.
+
+<details>
+<summary>Full settings.json (click to expand)</summary>
+```json
+{
+    // Formatting
+    "[r]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Posit.air-vscode"
+    },
+
+    "[quarto]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "quarto.quarto"
+    },
+
+    // Editor
+
+    // Don't open a welcome tab on launch
+    "workbench.startupEditor": "none",
+
+    // Show a vertical ruler at 80 characters
+    "editor.rulers": [80],
+ 
+    // Custom template for the title bar
+    "window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${activeRepositoryBranchName}",
+
+    // Ignore trailing whitespace in diffs
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    // Theme
+   
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+
+    // Git
+
+    // Automatically fetch from remote repositories
+    "git.autofetch": true,
+
+    // Terminal
+
+    // Use Git Bash as the default terminal in windows, and bash in linux
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.linux": "bash",
+
+    // Disable shell integration to have the terminal run faster
+    "terminal.integrated.shellIntegration.enabled": false
+
+    // Misc 
+
+    // Use RStudio-style keybindings as the baseline
+    "workbench.keybindings.rstudioKeybindings": true,
+
+    // Enable Positron's built-in AI assistant
+    "positron.assistant.enable": true,
+
+    // Preview SVGs as rendered images
+    "svg.preview.mode": "svg",
+
+    // Collapse summary statistics panel by default
+    "dataExplorer.summaryCollapsed": true,
+
+    "files.associations": {
+        "renv.lock": "json"
+    },
+}
+```
+</details>
+
+**Formatting**
+
+- `editor.formatOnSave` + `editor.defaultFormatter` — Auto-formats R files on save using the [Air](https://marketplace.visualstudio.com/items?itemName=Posit.air-vscode) formatter, and Quarto documents using the Quarto extension's built-in formatter. This keeps code consistently formatted.
+
+**Editor**
+
+- `"workbench.startupEditor": "none"` — Disables the welcome/start tab.
+- `"editor.rulers": [80]` — Shows a vertical guide line at 80 characters.
+- `"window.title": "${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${activeRepositoryBranchName}"` — Customizes the title bar to show: active file → project name → profile name → current git branch. 
+- `"diffEditor.ignoreTrimWhitespace": true` — Ignores trailing whitespace when showing diffs, so changes to indentation don't clutter the view.
+
+**Themes**
+
+There are tons of themes and icon packs available in the extension marketplace, these are the ones I use:
+
+- `"workbench.iconTheme": "material-icon-theme"` — Switches the file explorer icons to the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+- `"workbench.colorTheme": "Catppuccin Macchiato"` — Sets the color theme to [Catppuccin Macchiato](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc).
+
+**Git**
+
+- `"git.autofetch": true` — Automatically fetches from remote repositories in the background.
+
+**Terminal**
+
+I use both Windows and Linux machines, so I set the default terminal to Git Bash on Windows and Bash on Linux. Additionally, I disable shell integration for a faster terminal startup (at the cost of some shell-aware features like command decorations): 
+
+- `"terminal.integrated.defaultProfile.windows": "Git Bash"` — Uses Git Bash as the default terminal on Windows.
+- `"terminal.integrated.defaultProfile.linux": "bash"` — Uses Bash as the default terminal on Linux.
+- `"terminal.integrated.shellIntegration.enabled": false` — Disables shell integration for a faster terminal startup (at the cost of some shell-aware features like command decorations).
+
+**Other Settings**
+
+- `"workbench.keybindings.rstudioKeybindings": true` — Enables RStudio-style keybindings as the starting point. See the [Keyboard Shortcuts](#keyboard-shortcuts) section below for additional bindings on top of these.
+- `"positron.assistant.enable": true` — Enables Positron's built-in AI assistant.
+- `"svg.preview.mode": "svg"` — Previews SVG files as rendered images rather than raw XML.
+- `"dataExplorer.summaryCollapsed": true` — Positron has a very nice feature that summarizes the statistics of a dataset when you open it in the data explorer, by default this is always open, I prefer to have it collapsed to give more room to the data table.
+- `"files.associations": { "renv.lock": "json" }` — Treats `renv.lock` as JSON so the editor applies JSON syntax highlighting to it.
+
+### Keyboard Shortcuts
+
+In the settings we enabled the **RStudio keybindings** (`workbench.keybindings.rstudioKeybindings: true`). The other default keybinds (from VSCode) are stored in "Default Keyboard Shortcuts". You can define additional custom keybindings in `keybindings.json`. Again, from the command palette (Ctrl + Shift + P) search "Preferences: Open Keyboard Shortcuts (JSON)". Below are some of the keybindings I like to use, many are default from VSCode and RStudio.
+
+<details>
+<summary>Full settings.json (click to expand)</summary>
+```json
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleAuxiliaryBar" },
+    { "key": "ctrl+2",
+    "command": "workbench.action.positronConsole.focusConsole" },
+]
+```
+</details>
+
+**Sidebar**
+
+- `Ctrl + B`  Toggle the primary sidebar (activity bar) on/off
+- `Ctrl + Alt + B`  Toggle the secondary sidebar (auxiliary bar) on/off
+
+**Navigation**
+
+- ``Ctrl + ` ``  Focus on the Terminal panel
+- `Ctrl + 1`  Focus on the editor
+- `Ctrl + 2`  Focus on the console
+- `Ctrl + Shift + E`  Focus on the Explorer view in the sidebar
+- `Ctrl + Shift + G`  Focus on the Source Control view in the sidebar
+
+### Useful resources and inspiration for my configuration:
+
+- Heiss, Andrew. 2026. “How to Make Your Data Analysis Life Easier Using Positron, Raycast, and Espanso.” January 13, 2026. [https://doi.org/10.59350/zj8p7-7kg49](https://doi.org/10.59350/zj8p7-7kg49).
+- Emil Hvitfeldt. ["Positron: My Extensions and Settings](https://emilhvitfeldt.com/post/positron-settings-extensions/) and [“Positron: My Key Bindings”](https://emilhvitfeldt.com/post/positron-key-bindings/).
