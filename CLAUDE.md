@@ -32,12 +32,19 @@ Personal website for Riccardo Spada, PhD Candidate in Business Economics at Wage
 
 ## Building and Running
 
-Requires [Quarto](https://quarto.org/docs/get-started/) installed.
+Requires [Quarto](https://quarto.org/docs/get-started/) and [R](https://cran.r-project.org/) installed (for Shinylive pages).
+
+- **Required R packages:** `shinylive` (install via `Rscript -e 'install.packages("shinylive")'`).
 
 ```bash
 quarto render    # Build site to docs/
 quarto preview   # Live preview with hot reload
 ```
+
+### Windows-Specific Notes
+
+- **R location:** `C:\Program Files\R\R-4.4.1` — not on system PATH by default. Add it before building: `export PATH="/c/Program Files/R/R-4.4.1/bin:$PATH"`
+- **OneDrive file locking:** OneDrive can lock files in `.quarto/_webr/appdir`, causing `EPERM` errors during render/preview. Fix by running `rm -rf .quarto/_webr` before building.
 
 ## Conventions
 
