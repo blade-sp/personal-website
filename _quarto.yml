@@ -36,6 +36,8 @@ website:
         href: https://www.researchgate.net/profile/Riccardo-Spada-3
       - text: "<i class='fa-brands fa-google-scholar'></i>"
         href: https://scholar.google.com/citations?user=3i7Aqy8AAAAJ&hl=en
+      - text: "<i class='fa-brands fa-bluesky'></i>"
+        href: https://bsky.app/profile/riccardospada.bsky.social 
 
 
   page-footer:

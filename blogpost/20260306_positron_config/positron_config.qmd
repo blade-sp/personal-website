@@ -60,7 +60,7 @@ The settings below are defined in `settings.json`. In Positron you can access th
     // Theme
    
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.colorTheme": "Catppuccin Mocha",
 
     // Git
 

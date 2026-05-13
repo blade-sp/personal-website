@@ -1,4 +1,3 @@
-/.quarto/
+.quarto/
+.claude/
 **/*.quarto_ipynb
-
-TODO.md
