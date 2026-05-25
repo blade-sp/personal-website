@@ -3,8 +3,9 @@ project:
   output-dir: docs
   render:
     - "**/*.qmd"
+    - "!dashboards/"
 
-site-url: "https://blade-sp.github.io/personal-website/"
+site-url: "https://blade-sp.github.io/website/"
 
 website:
   title: "Riccardo Spada"
@@ -16,8 +17,8 @@ website:
         href: index.qmd
       - text: Research
         href: research.qmd
-      - text: Dashboards
-        href: dashboards.qmd
+      # - text: Dashboards
+      #   href: dashboards.qmd
       - text: Blog
         href: blog.qmd
       - text: CV

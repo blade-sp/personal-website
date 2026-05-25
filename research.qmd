@@ -2,7 +2,8 @@
 title: "Research"
 format: html
 ---
- 
+Code for replication available on [<img src="blogpost/260514_codeberg_migration/codeberg-logo_icon_blue.svg"> Codeberg](https://codeberg.org/rspada). 
+
 ## Journal Articles
 **Riccardo Spada**, Laura Moritz, Jens Rommel, Simone Cerroni, Miranda PM Meuwissen, Tobias Dalhaus <br> 
 **Behavioral Preferences and Price Risk Management in Agriculture: A Systematic Literature Review**, *Journal of Agricultural and Applied Economics*. Published online 2026:1-25. [doi:10.1017/aae.2026.10044](https://doi:10.1017/aae.2026.10044)
